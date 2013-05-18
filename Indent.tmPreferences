@@ -9,7 +9,7 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>^\s*(\}|\]|else|catch.*|finally)$</string>
+		<string>^\s*(\}|\]|else|when.*|catch.*|finally)$</string>
 		<key>increaseIndentPattern</key>
 		<string>(?x)
 			^\s*
@@ -19,7 +19,7 @@
 			# assignment using multiline if/while/for
 			|[a-zA-Z\$_](\w|\$|\.)*\s*(:|=)\s*((if|while)(?!.*?then)|for|$)
 			|(if|while|until)\b(?!.*?then)
-			|for\b|loop\b
+			|for\b|loop\b|switch\b
 			|import\s*$
 			|(try|catch\s+\S.*)\s*$
 			|.*[-=]&gt;$

@@ -90,7 +90,7 @@
       <string>(?x)
         \b(?&lt;![\.\$])(
           if|else|for|in|try|catch|loop|while|switch|case|then|
-          continue|break|return|throw|by|to|downto|
+          continue|break|return|throw|by|to|downto|when|
           from|where|let|new|delete|finally|defer|
           import|public|private|friend|inline|const|static|using|namespace|
           and|not|or|is|isnt|
