@@ -1,0 +1,13 @@
+{
+	"cmd": ["SugarCpp", "$file"],
+	"working_dir": "$project_path",
+	"selector": "source.sugar",
+	"shell": true,
+	"variants":
+	[
+		{
+			"name": "Run",
+			"cmd": ["SugarCpp", "run", "$file"]
+		}
+	]
+}
