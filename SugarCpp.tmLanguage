@@ -177,7 +177,8 @@
     <dict>
       <key>match</key>
       <string>(?x)\b(
-        void|int|double|float|bool|unsigned|short|char|long
+        void|int|double|float|bool|unsigned|short|char|long|
+        uint|int8|int16|int32|int64|uint8|uint16|uint32|uint64
       )\b</string>
       <key>name</key>
       <string>support.class.sugar</string>
