@@ -216,6 +216,12 @@
       <string>variable.parameter.function.sugar</string>
     </dict>
     <dict>
+      <key>match</key>
+      <string>^\s*([a-zA-Z0-9_]*)(?=(\s*:))</string>
+      <key>name</key>
+      <string>variable.parameter.function.sugar</string>
+    </dict>
+    <dict>
       <key>include</key>
       <string>#instance_variable</string>
     </dict>
