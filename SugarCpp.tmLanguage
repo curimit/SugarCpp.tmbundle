@@ -90,7 +90,7 @@
       <string>(?x)
         \b(?&lt;![\.\$])(
           if|else|for|in|try|catch|loop|while|switch|case|then|
-          continue|break|return|throw|by|to|downto|when|
+          continue|break|return|throw|by|to|downto|when|til|
           from|where|let|new|delete|finally|defer|
           import|public|private|friend|inline|const|static|using|namespace|
           and|not|or|is|isnt|
@@ -138,13 +138,13 @@
     </dict>
     <dict>
       <key>match</key>
-      <string>\b(?&lt;!\.)(true|on|yes)(?!\s*[:=])\b</string>
+      <string>\b(?&lt;!\.)(true)(?!\s*[:=])\b</string>
       <key>name</key>
       <string>constant.language.boolean.true.sugar</string>
     </dict>
     <dict>
       <key>match</key>
-      <string>\b(?&lt;!\.)(false|no)(?!\s*[:=])\b</string>
+      <string>\b(?&lt;!\.)(false)(?!\s*[:=])\b</string>
       <key>name</key>
       <string>constant.language.boolean.false.sugar</string>
     </dict>
