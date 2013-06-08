@@ -269,7 +269,7 @@
           <string>string.quoted.single.sugar</string>
         </dict>
       </array>
-    </dict>    
+    </dict>
     <key>double_quoted_string</key>
     <dict>
       <key>patterns</key>
@@ -297,6 +297,15 @@
           </dict>
           <key>name</key>
           <string>string.quoted.double.sugar</string>
+          <key>patterns</key>
+          <array>
+            <dict>
+              <key>match</key>
+              <string>\\(x\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)</string>
+              <key>name</key>
+              <string>constant.character.escape.sugar</string>
+            </dict>
+          </array>
         </dict>
       </array>
     </dict>
